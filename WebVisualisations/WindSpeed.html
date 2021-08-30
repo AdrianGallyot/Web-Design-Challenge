@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.87.0">
+    <title>Fixed top navbar example · Bootstrap v5.1</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbar-fixed/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      h1{
+        color: #009999;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: bold;
+        font-size: 40px;
+        text-align: left;
+      }
+
+      h2{
+        color: #009999;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: bold;
+        font-size: 25px;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="navbar-top-fixed.css" rel="stylesheet">
+  </head>
+  <body style="background-color: whitesmoke;">
+    
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand mb-0 h1" style="background-color:#009999; font-family: Times New Roman, Times, serif; font-size: 1.875em; font-weight: bold; color: white;" href="Landing.html">Latitude</a>
+      <ul class="nav justify-content-end">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Plots
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="MaxTemp.html">Max Temperature</a></li>
+            <li><a class="dropdown-item" href="Humidity.html">Humidity</a></li>
+            <li><a class="dropdown-item" href="Cloudiness.html">cloudiness</a></li>
+            <li><a class="dropdown-item" href="WindSpeed.html">Wind Speed</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Comparison.html">Comparision</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" >Data</a>
+        </li>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="container-lg" style="background-color: whitesmoke;">
+    <div class="card text-center">
+        <div class="card-body">
+          <p class="card-text">
+            <h1>Wind Speed</h1>
+        </br>
+<div class="container">
+     <div class="col">
+         <img class="img-responsive" src="Resources/assets/images/Fig4.png" alt="Chania" width="1000" height="750">
+     </div>
+    </div>
+<p style="text-align: justify;">
+The relationship between Humidity and Latitude does not have any definitive pattern as one approaches the equator (0 Deg. Latitude),
+ largely due to the fact that humdity can occur within hot and cold temperatures. 
+ The outliers are likely due to seasonal varience with location in both northern and souther hemispheres.</p>
+</p>
+</main>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
