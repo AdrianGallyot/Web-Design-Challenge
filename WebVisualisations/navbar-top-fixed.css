@@ -1,0 +1,13 @@
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+}
+
+main{
+  padding-top: 4.5rem;
+  background-color: whitesmoke;
+}
+
+.container-lg{
+  padding-right: 4.5rem;
+}
